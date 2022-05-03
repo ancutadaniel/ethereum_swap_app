@@ -11,7 +11,7 @@ const MainMenu = ({ account }) => {
   return (
     <Menu id='main_menu'>
       <Menu.Item
-        name='Meme of the day'
+        name='ETH SWAP'
         active={activeItem === 'todoList'}
         onClick={handleItemClick}
       />

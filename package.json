@@ -1,6 +1,7 @@
 {
-  "name": "truffle-react-starter-kit",
+  "name": "truffle-react-eth-swap-app",
   "version": "0.1.0",
+  "description": "An Instance ERC-20 Cryptocurrency Exchange",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
