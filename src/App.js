@@ -123,7 +123,7 @@ const App = () => {
     } catch (error) {
       setErrors(error);
     }
-  }, [contractToken.methods, accounts]);
+  }, [accounts, contractToken, web3.eth]);
 
   useEffect(() => {
     if (contractToken) updateData();
@@ -136,7 +136,6 @@ const App = () => {
   return (
     <div className='App'>
       <MainMenu account={accounts[0]} />
-
       <Divider horizontal>§</Divider>
       <Container>
         {loading ? (
